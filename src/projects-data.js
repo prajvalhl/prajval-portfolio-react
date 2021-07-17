@@ -1,5 +1,13 @@
 export const data = [
   {
+    title: "Portfolio Site",
+    date: "June, 2021",
+    description:
+      "A Portfolio website which showcases my works, made using REACT JS. If you're reading this, you're already on my website right now! Cheers!",
+    hosted: "https://prajvalhl.netlify.app/",
+    source: "https://github.com/prajvalhl/prajval-portfolio-react",
+  },
+  {
     title: "comp-libr",
     date: "April, 2021",
     description: "A fully responsive Custom CSS Component Library.",
@@ -10,8 +18,8 @@ export const data = [
     title: "Portfolio Site (old)",
     date: "February, 2021",
     description:
-      "A Portfolio website which showcases my works, made using HTML, CSS and vanilla JS. If you're reading this, you're already on my website right now! Cheers!",
-    hosted: "https://prajvalhl.netlify.app/",
+      "A Portfolio website which showcases my works, made using HTML, CSS and vanilla JS.",
+    hosted: "https://prajvalhl-old.netlify.app/",
     source: "https://github.com/prajvalhl/prajval-portfolio",
   },
   {
