@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4ceeaf72.chunk.css",
+    "main.js": "/static/js/main.d712b923.chunk.js",
+    "main.js.map": "/static/js/main.d712b923.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.aeb7d87d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.aeb7d87d.js.map",
+    "static/js/2.6ea36c0b.chunk.js": "/static/js/2.6ea36c0b.chunk.js",
+    "static/js/2.6ea36c0b.chunk.js.map": "/static/js/2.6ea36c0b.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.4ceeaf72.chunk.css.map": "/static/css/main.4ceeaf72.chunk.css.map",
+    "static/js/2.6ea36c0b.chunk.js.LICENSE.txt": "/static/js/2.6ea36c0b.chunk.js.LICENSE.txt",
+    "static/media/hero-blog.58fe7b69.svg": "/static/media/hero-blog.58fe7b69.svg",
+    "static/media/hero-main.b12e9c7d.svg": "/static/media/hero-main.b12e9c7d.svg",
+    "static/media/hero-projects.b1b34bcc.svg": "/static/media/hero-projects.b1b34bcc.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aeb7d87d.js",
+    "static/js/2.6ea36c0b.chunk.js",
+    "static/css/main.4ceeaf72.chunk.css",
+    "static/js/main.d712b923.chunk.js"
+  ]
+}
