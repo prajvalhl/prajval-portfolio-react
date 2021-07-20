@@ -1,8 +1,10 @@
 import React from "react";
+import { useTheme } from "../theme-context";
 
 export function Footer() {
+  const { themePalette } = useTheme();
   return (
-    <footer className="footer">
+    <footer className={`footer ${themePalette.primary}`}>
       <div className="footer-header">Connect me on Social Media.</div>
       <ul className="social-links list-non-bullet">
         <li className="list-item-inline">

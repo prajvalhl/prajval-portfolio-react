@@ -3,14 +3,15 @@ export const data = [
     title: "Portfolio Site",
     date: "June, 2021",
     description:
-      "A Portfolio website which showcases my works, made using REACT JS. If you're reading this, you're already on my website right now! Cheers!",
+      "A Responsive Portfolio website which showcases my Projects, made using REACT JS. If you're reading this, you're already on my website right now! Cheers!",
     hosted: "https://prajvalhl.netlify.app/",
     source: "https://github.com/prajvalhl/prajval-portfolio-react",
   },
   {
     title: "comp-libr",
     date: "April, 2021",
-    description: "A fully responsive Custom CSS Component Library.",
+    description:
+      "A fully responsive Custom CSS Component Library made using HTML, CSS and JavaScript (ES6).",
     hosted: "https://comp-libr.netlify.app/",
     source: "https://github.com/prajvalhl/comp.libr",
   },
@@ -18,7 +19,7 @@ export const data = [
     title: "Portfolio Site (old)",
     date: "February, 2021",
     description:
-      "A Portfolio website which showcases my works, made using HTML, CSS and vanilla JS.",
+      "A Responsive Portfolio website which showcases my projects, made using HTML, CSS and vanilla JS (ES6).",
     hosted: "https://prajvalhl-old.netlify.app/",
     source: "https://github.com/prajvalhl/prajval-portfolio",
   },
@@ -34,7 +35,7 @@ export const data = [
     title: "Budgety",
     date: "October, 2020",
     description:
-      "A simple app for calculating monthly budget written using vanilla JavaScript (ES5).",
+      "A simple non-responsive app for calculating monthly budget written using vanilla JavaScript (ES5).",
     hosted: "https://prajvalhl.github.io/budgety/",
     source: "https://github.com/prajvalhl/budgety",
   },
@@ -42,7 +43,7 @@ export const data = [
     title: "What's this Food Emoji?",
     date: "January, 2021",
     description:
-      "This simple app will interpret emojis. Put a Food emoji and it will tell what food it is. Made using ReactJS. For more details - readme.md",
+      "This simple responsive app will interpret food / drink emojis. Put a Food emoji and it will tell what food it is. Made using ReactJS. For more details - readme.md",
     hosted: "https://qv6p8.csb.app/",
     source: "https://github.com/prajvalhl/emojiInterpreter",
   },
@@ -50,7 +51,7 @@ export const data = [
     title: "Talk Dothraki",
     date: "January, 2021",
     description:
-      "Convert from English to Dothraki. Programmed using HTML, CSS and JavaScript (ES6). For more details - readme.md",
+      "Convert from English to Dothraki. Programmed responsively using HTML, CSS and JavaScript (ES6). For more details - readme.md",
     hosted: "https://prajvalhl.github.io/talk-dothraki/",
     source: "https://github.com/prajvalhl/talk-dothraki",
   },
@@ -66,7 +67,7 @@ export const data = [
     title: "Pig Game V2 (Aka Dicegame)",
     date: "December, 2020",
     description:
-      "A simple dice game written using Vanilla JavaScript (ES6). First to score 100 points wins!! This is same as the previous dicegame but with updated UI. For more details - readme.md",
+      "A simple non-responsive dice game written using Vanilla JavaScript (ES6). First to score 100 points wins!! This is same as the previous dicegame but with updated UI. For more details - readme.md",
     hosted: "https://prajvalhl.github.io/pig-game-v2/",
     source: "https://github.com/prajvalhl/pig-game-v2",
   },
@@ -74,7 +75,7 @@ export const data = [
     title: "Guess My Number",
     date: "December, 2020",
     description:
-      "A simple vanilla JS (ES6) game to guess the numbers between 1 and 20.",
+      "A simple non-responsive vanilla JS (ES6) game to guess the numbers between 1 and 20.",
     hosted: "https://prajvalhl.github.io/Guess-My-Number/",
     source: "https://github.com/prajvalhl/Guess-My-Number",
   },
