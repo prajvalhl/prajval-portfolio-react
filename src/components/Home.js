@@ -1,25 +1,32 @@
 import React, { useEffect } from "react";
 import logo from "./images/hero-main.svg";
 import { useNav } from "../nav-context";
+import { useTheme } from "../theme-context";
 
 export function Home() {
   const { setRoute } = useNav();
+  const { themePalette } = useTheme();
 
   useEffect(() => {
     document.title = "Prajval | Portfolio";
   }, []);
 
   return (
-    <div>
+    <div className={themePalette.body}>
       <header className="hero">
         <img className="hero-img" src={logo} alt="" />
-        <h1 className="hero-heading">
-          Hello! My name is <span className="primary-color">Prajval H L</span>.
-          I'm a Full Stack
-          <span className="primary-color"> Web Development</span> Enthusiast.
+        <h1 className={`hero-heading ${themePalette.heroHeading}`}>
+          Hello! My name is{" "}
+          <span className={themePalette.primaryInside}>Prajval H L</span>. I'm a
+          Full Stack
+          <span className={themePalette.primaryInside}>
+            {" "}
+            Web Development
+          </span>{" "}
+          Enthusiast.
         </h1>
       </header>
-      <section className="section ow">
+      <section className={`section ${themePalette.section}`}>
         <div className="container container-center">
           <h1>Technologies</h1>
           <p>
@@ -33,14 +40,14 @@ export function Home() {
           <h1>Projects</h1>
           <p>Here are some of my works!</p>
           <button
-            className="button btn-primary"
+            className={`button btn-primary ${themePalette.primary}`}
             onClick={() => setRoute("projects")}
           >
             See Projects
           </button>
         </div>
       </section>
-      <section className="section ow">
+      <section className={`section ${themePalette.section}`}>
         <div className="container container-center">
           <h1>Blogs</h1>
           <p>
@@ -48,7 +55,7 @@ export function Home() {
             someone in need.
           </p>
           <button
-            className="button btn-primary btn-secondary"
+            className={`button btn-primary btn-secondary ${themePalette.section} ${themePalette.primaryInside}`}
             onClick={() => setRoute("blog")}
           >
             Read Blogs

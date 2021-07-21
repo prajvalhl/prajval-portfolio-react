@@ -1,12 +1,14 @@
 import React, { useEffect } from "react";
 import logo from "./images/hero-blog.svg";
+import { useTheme } from "../theme-context";
 
 export function Blogs() {
+  const { themePalette } = useTheme();
   useEffect(() => {
     document.title = "Prajval | Blogs";
   }, []);
   return (
-    <div>
+    <div className={themePalette.body}>
       <header className="hero">
         <img className="hero-img" src={logo} alt="" />
         <h1 className="hero-heading">

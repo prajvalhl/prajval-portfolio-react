@@ -3,7 +3,7 @@ import { Main } from "./components/Main";
 
 function App() {
   return (
-    <div classNameName="App">
+    <div classNameName="App dark-body">
       <Main />
     </div>
   );
