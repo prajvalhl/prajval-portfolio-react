@@ -13,9 +13,8 @@ export function Main() {
 
   useEffect(() => {
     const getTheme = JSON.parse(localStorage.getItem("theme"));
-    if (getTheme) {
-      setTheme(getTheme);
-    }
+    setTheme(getTheme);
+    getTheme.body === "dark-body" ? setDark(true) : setDark(false);
   }, []);
 
   useEffect(() => {
@@ -48,7 +47,8 @@ export function Main() {
               type="checkbox"
               className="checkbox"
               id="chk"
-              onClick={handleThemeButton}
+              onChange={handleThemeButton}
+              checked={isDark}
             />
             <label className="label" htmlFor="chk">
               <i className="fas fa-moon"></i>
