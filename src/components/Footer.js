@@ -12,6 +12,7 @@ export function Footer() {
             className="link"
             href="https://www.linkedin.com/in/hlprajval/"
             target="_blank"
+            rel="noreferrer"
           >
             Linkedin
           </a>
@@ -21,6 +22,7 @@ export function Footer() {
             className="link"
             href="https://github.com/prajvalhl"
             target="_blank"
+            rel="noreferrer"
           >
             Github
           </a>
@@ -30,6 +32,7 @@ export function Footer() {
             className="link"
             href="https://twitter.com/l_prajval"
             target="_blank"
+            rel="noreferrer"
           >
             Twitter
           </a>

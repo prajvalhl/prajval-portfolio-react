@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Home } from "./Home";
 import { Projects } from "./Projects";
 import { Blogs } from "./Blogs";
@@ -11,6 +11,17 @@ export function Main() {
   const [isDark, setDark] = useState(false);
   const { themePalette, setTheme } = useTheme();
 
+  useEffect(() => {
+    const getTheme = JSON.parse(localStorage.getItem("theme"));
+    if (getTheme) {
+      setTheme(getTheme);
+    }
+  }, []);
+
+  useEffect(() => {
+    localStorage.setItem("theme", JSON.stringify(themePalette));
+  }, [themePalette]);
+
   function handleThemeButton() {
     setTheme(() => (isDark ? light : dark));
     setDark((prev) => !prev);
@@ -21,17 +32,30 @@ export function Main() {
       <nav className={`container navigation ${themePalette.primary}`}>
         <div className="nav-brand">
           <button
-            className={`button main-title ${themePalette.primary}`}
+            className={`button brand-name ${themePalette.primary}`}
             onClick={() => setRoute("home")}
           >
             PRAJVAL H L
           </button>
-          <button
-            className={`button main-title ${themePalette.primary}`}
+          {/* <button
+            className={`button brand-name ${themePalette.primary}`}
             onClick={handleThemeButton}
           >
             {isDark ? "Light" : "Dark"} mode
-          </button>
+          </button> */}
+          <div className="theme-position">
+            <input
+              type="checkbox"
+              className="checkbox"
+              id="chk"
+              onClick={handleThemeButton}
+            />
+            <label className="label" htmlFor="chk">
+              <i className="fas fa-moon"></i>
+              <i className="fas fa-sun"></i>
+              <div className="ball"></div>
+            </label>
+          </div>
         </div>
         <ul className="list-non-bullet">
           <li className="list-item-inline">

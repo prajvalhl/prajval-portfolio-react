@@ -8,7 +8,7 @@ export function Home() {
   const { themePalette } = useTheme();
 
   useEffect(() => {
-    document.title = "Prajval | Portfolio";
+    document.title = "Prajval";
   }, []);
 
   return (
@@ -16,23 +16,30 @@ export function Home() {
       <header className="hero">
         <img className="hero-img" src={logo} alt="" />
         <h1 className={`hero-heading ${themePalette.heroHeading}`}>
-          Hello! My name is{" "}
-          <span className={themePalette.primaryInside}>Prajval H L</span>. I'm a
-          Full Stack
-          <span className={themePalette.primaryInside}>
-            {" "}
-            Web Development
-          </span>{" "}
-          Enthusiast.
+          Hey there! My name is{" "}
+          <span className={themePalette.primaryInside}>Prajval</span>. I'm a
+          <span className={themePalette.primaryInside}> Full Stack Web</span>{" "}
+          Developer.
         </h1>
       </header>
       <section className={`section ${themePalette.section}`}>
         <div className="container container-center">
-          <h1>Technologies</h1>
-          <p>
-            I'm familiar with HTML5, CSS3, JavaScript, Git, NodeJS, ReactJS, Web
-            Hosting, and Python.
-          </p>
+          <h1>My Skills</h1>
+          <ul>
+            <li className="list-non-bullet skills">
+              <strong>Web:</strong> HTML5, CSS3, JavaScript, ReactJS, NodeJS,
+              Python.
+            </li>
+            <li className="list-non-bullet skills">
+              <strong>Database:</strong> MS SQL Server, MongoDB.{" "}
+            </li>
+            <li className="list-non-bullet skills">
+              <strong>Version Control System:</strong> Git, GitHub.{" "}
+            </li>
+            <li className="list-non-bullet skills">
+              <strong>Web Hosting:</strong> Netlify.{" "}
+            </li>
+          </ul>
         </div>
       </section>
       <section className="section">
@@ -55,7 +62,7 @@ export function Home() {
             someone in need.
           </p>
           <button
-            className={`button btn-primary btn-secondary ${themePalette.section} ${themePalette.primaryInside}`}
+            className={`button btn-primary btn-secondary ${themePalette.section}`}
             onClick={() => setRoute("blog")}
           >
             Read Blogs

@@ -4,15 +4,17 @@ import { useTheme } from "../theme-context";
 
 export function Blogs() {
   const { themePalette } = useTheme();
+
   useEffect(() => {
-    document.title = "Prajval | Blogs";
+    document.title = "Blogs | Prajval";
   }, []);
+
   return (
     <div className={themePalette.body}>
       <header className="hero">
         <img className="hero-img" src={logo} alt="" />
         <h1 className="hero-heading">
-          My <span className="primary-color">Blogs</span>
+          My <span className={themePalette.primaryInside}>Blogs</span>
         </h1>
       </header>
       <section className="section">
