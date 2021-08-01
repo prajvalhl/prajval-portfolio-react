@@ -1,5 +1,6 @@
 export const data = [
   {
+    id: 11,
     title: "Portfolio Site",
     date: "June, 2021",
     description:
@@ -8,6 +9,7 @@ export const data = [
     source: "https://github.com/prajvalhl/prajval-portfolio-react",
   },
   {
+    id: 10,
     title: "comp-libr",
     date: "April, 2021",
     description:
@@ -16,6 +18,7 @@ export const data = [
     source: "https://github.com/prajvalhl/comp.libr",
   },
   {
+    id: 9,
     title: "Portfolio Site (old)",
     date: "February, 2021",
     description:
@@ -24,6 +27,7 @@ export const data = [
     source: "https://github.com/prajvalhl/prajval-portfolio",
   },
   {
+    id: 8,
     title: "How woke are you?",
     date: "January, 2021",
     description:
@@ -32,6 +36,7 @@ export const data = [
     source: "https://repl.it/@prajvalhl/CLI-end-game-neo-g#index.js",
   },
   {
+    id: 7,
     title: "Budgety",
     date: "October, 2020",
     description:
@@ -40,6 +45,7 @@ export const data = [
     source: "https://github.com/prajvalhl/budgety",
   },
   {
+    id: 6,
     title: "What's this Food Emoji?",
     date: "January, 2021",
     description:
@@ -48,6 +54,7 @@ export const data = [
     source: "https://github.com/prajvalhl/emojiInterpreter",
   },
   {
+    id: 5,
     title: "Talk Dothraki",
     date: "January, 2021",
     description:
@@ -56,6 +63,7 @@ export const data = [
     source: "https://github.com/prajvalhl/talk-dothraki",
   },
   {
+    id: 4,
     title: "Dicegame",
     date: "November, 2020",
     description:
@@ -64,6 +72,7 @@ export const data = [
     source: "https://github.com/prajvalhl/dicegame",
   },
   {
+    id: 3,
     title: "Pig Game V2 (Aka Dicegame)",
     date: "December, 2020",
     description:
@@ -72,6 +81,7 @@ export const data = [
     source: "https://github.com/prajvalhl/pig-game-v2",
   },
   {
+    id: 2,
     title: "Guess My Number",
     date: "December, 2020",
     description:
@@ -80,6 +90,7 @@ export const data = [
     source: "https://github.com/prajvalhl/Guess-My-Number",
   },
   {
+    id: 1,
     title: "Modal",
     date: "December, 2020",
     description:

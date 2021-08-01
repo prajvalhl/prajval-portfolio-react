@@ -5,9 +5,11 @@ import { useTheme } from "../theme-context";
 
 export function Projects() {
   const { themePalette } = useTheme();
+
   useEffect(() => {
-    document.title = "Prajval | Projects";
+    document.title = "Projects | Prajval";
   }, []);
+
   return (
     <div className={themePalette.body}>
       <header className="hero">
@@ -18,7 +20,7 @@ export function Projects() {
       </header>
       <ul className="list-non-bullet">
         {data.map((proj) => (
-          <li>
+          <li key={proj.id}>
             <div className="container container-center article-space">
               <h1>{proj.title}</h1>
               <small>{proj.date}</small>
@@ -28,15 +30,17 @@ export function Projects() {
                 className={`link link-primary ${themePalette.primary}`}
                 href={proj.hosted}
                 target="_blank"
+                rel="noreferrer"
               >
-                Live Project
+                Let's Visit
               </a>
               <a
-                className={`link link-secondary ${themePalette.primaryInside}`}
+                className="link link-secondary"
                 href={proj.source}
                 target="_blank"
+                rel="noreferrer"
               >
-                View Source
+                View Source Code
               </a>
             </div>
           </li>

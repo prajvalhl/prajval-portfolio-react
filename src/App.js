@@ -1,9 +1,11 @@
 import "./style.css";
 import { Main } from "./components/Main";
+import { useTheme } from "./theme-context";
 
 function App() {
+  const { themePalette } = useTheme();
   return (
-    <div classNameName="App dark-body">
+    <div className={`App ${themePalette.body}`}>
       <Main />
     </div>
   );
