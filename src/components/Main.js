@@ -36,12 +36,6 @@ export function Main() {
           >
             PRAJVAL H L
           </button>
-          {/* <button
-            className={`button brand-name ${themePalette.primary}`}
-            onClick={handleThemeButton}
-          >
-            {isDark ? "Light" : "Dark"} mode
-          </button> */}
           <div className="theme-position">
             <input
               type="checkbox"

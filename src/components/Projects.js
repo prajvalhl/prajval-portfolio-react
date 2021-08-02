@@ -11,7 +11,7 @@ export function Projects() {
   }, []);
 
   return (
-    <div className={themePalette.body}>
+    <div>
       <header className="hero">
         <img className="hero-img" src={logo} alt="" />
         <h1 className="hero-heading">
@@ -32,7 +32,7 @@ export function Projects() {
                 target="_blank"
                 rel="noreferrer"
               >
-                Let's Visit
+                Live Project
               </a>
               <a
                 className="link link-secondary"
@@ -40,7 +40,7 @@ export function Projects() {
                 target="_blank"
                 rel="noreferrer"
               >
-                View Source Code
+                View Source
               </a>
             </div>
           </li>
