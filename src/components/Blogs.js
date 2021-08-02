@@ -10,7 +10,7 @@ export function Blogs() {
   }, []);
 
   return (
-    <div className={themePalette.body}>
+    <div>
       <header className="hero">
         <img className="hero-img" src={logo} alt="" />
         <h1 className="hero-heading">
