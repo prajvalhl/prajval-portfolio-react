@@ -1,6 +1,6 @@
 export const data = [
   {
-    id: 11,
+    id: 12,
     title: "Portfolio Site",
     date: "June, 2021",
     description:
@@ -9,7 +9,7 @@ export const data = [
     source: "https://github.com/prajvalhl/prajval-portfolio-react",
   },
   {
-    id: 10,
+    id: 11,
     title: "comp-libr",
     date: "April, 2021",
     description:
@@ -18,7 +18,7 @@ export const data = [
     source: "https://github.com/prajvalhl/comp.libr",
   },
   {
-    id: 9,
+    id: 10,
     title: "Portfolio Site (old)",
     date: "February, 2021",
     description:
@@ -27,7 +27,7 @@ export const data = [
     source: "https://github.com/prajvalhl/prajval-portfolio",
   },
   {
-    id: 8,
+    id: 9,
     title: "How woke are you?",
     date: "January, 2021",
     description:
@@ -36,7 +36,7 @@ export const data = [
     source: "https://repl.it/@prajvalhl/CLI-end-game-neo-g#index.js",
   },
   {
-    id: 7,
+    id: 8,
     title: "Budgety",
     date: "October, 2020",
     description:
@@ -45,7 +45,7 @@ export const data = [
     source: "https://github.com/prajvalhl/budgety",
   },
   {
-    id: 6,
+    id: 7,
     title: "What's this Food Emoji?",
     date: "January, 2021",
     description:
@@ -54,13 +54,22 @@ export const data = [
     source: "https://github.com/prajvalhl/emojiInterpreter",
   },
   {
-    id: 5,
+    id: 6,
     title: "Talk Dothraki",
     date: "January, 2021",
     description:
       "Convert from English to Dothraki. Programmed responsively using HTML, CSS and JavaScript (ES6). For more details - readme.md",
     hosted: "https://prajvalhl.github.io/talk-dothraki/",
     source: "https://github.com/prajvalhl/talk-dothraki",
+  },
+  {
+    id: 5,
+    title: "Cash Register Manager",
+    date: "August, 2021",
+    description:
+      "A simple non-responsive Cash Register Manager written using Vanilla JavaScript (ES6). Helps one to know the minimum number of cash to return for a given bill amount.",
+    hosted: "https://prajvalhl.github.io/cash-register-manager/",
+    source: "https://github.com/prajvalhl/cash-register-manager",
   },
   {
     id: 4,
