@@ -1,10 +1,10 @@
 export const data = [
   {
     id: 13,
-    title: "Portfolio Site",
+    title: "Portfolio Site (React-JS)",
     date: "June, 2021",
     description:
-      "A Responsive Portfolio website which showcases my Projects, made using REACT JS. If you're reading this, you're already on my website right now! Cheers!",
+      "A Responsive Portfolio website which showcases my Projects, made using REACT-JS. If you're reading this, you're already on my website right now! Cheers!",
     hosted: "https://prajvalhl.netlify.app/",
     source: "https://github.com/prajvalhl/prajval-portfolio-react",
   },
@@ -13,16 +13,16 @@ export const data = [
     title: "comp-libr",
     date: "April, 2021",
     description:
-      "A fully responsive Custom CSS Component Library made using HTML, CSS and JavaScript (ES6).",
+      "A fully responsive Custom CSS Component Library created using HTML, CSS and Vanilla-JS (ES6).",
     hosted: "https://comp-libr.netlify.app/",
     source: "https://github.com/prajvalhl/comp-libr",
   },
   {
     id: 11,
-    title: "Portfolio Site (old)",
+    title: "Portfolio Site (Vanilla-JS)",
     date: "February, 2021",
     description:
-      "A Responsive Portfolio website which showcases my projects, made using HTML, CSS and vanilla JS (ES6).",
+      "A Responsive Portfolio website which showcases my projects. This website is created using HTML, CSS and Vanilla-JS (ES6).",
     hosted: "https://prajvalhl-old.netlify.app/",
     source: "https://github.com/prajvalhl/prajval-portfolio",
   },
@@ -40,7 +40,7 @@ export const data = [
     title: "Budgety",
     date: "October, 2020",
     description:
-      "A simple non-responsive app for calculating monthly budget written using vanilla JavaScript (ES5).",
+      "A simple non-responsive app for calculating monthly budget. This app is created using HTML, CSS and Vanilla-JS (ES5).",
     hosted: "https://prajvalhl.github.io/budgety/",
     source: "https://github.com/prajvalhl/budgety",
   },
@@ -49,7 +49,7 @@ export const data = [
     title: "What's this Food Emoji?",
     date: "January, 2021",
     description:
-      "This simple responsive app will interpret food / drink emojis. Put a Food emoji and it will tell what food it is. Made using ReactJS. For more details - readme.md",
+      "This simple responsive app will interpret food / drink emojis. Put a Food emoji and it will tell what food it is. This app is created using React-JS.",
     hosted: "https://qv6p8.csb.app/",
     source: "https://github.com/prajvalhl/emojiInterpreter",
   },
@@ -58,52 +58,52 @@ export const data = [
     title: "Talk Dothraki",
     date: "January, 2021",
     description:
-      "Convert from English to Dothraki. Programmed responsively using HTML, CSS and JavaScript (ES6). For more details - readme.md",
+      "This is a translation app that converts from English to Dothraki language. This small responsive app was created using HTML, CSS and Vanilla-JS (ES6). For more details - readme.md",
     hosted: "https://prajvalhl.github.io/talk-dothraki/",
     source: "https://github.com/prajvalhl/talk-dothraki",
   },
   {
     id: 6,
     title: "Cash Register Manager",
-    date: "August, 2021",
+    date: "January, 2021",
     description:
-      "A simple responsive Cash Register Manager written using ReactJS. Helps one to know the minimum number of cash to return for a given bill amount.",
+      "A simple responsive Cash Register Manager app written using React-JS. Helps one to know the minimum number of cash to return for a given bill amount.",
     hosted: "https://flurq.csb.app/",
     source: "https://github.com/prajvalhl/cash-register-manager",
   },
   {
     id: 5,
     title: "Is your birthday lucky?",
-    date: "August, 2021",
+    date: "January, 2021",
     description:
-      "This fun little ReactJS app says if your birthday is lucky or not based on your birth date and your lucky number. Try it!",
+      "This fun little React-JS app tells if your birthday is lucky or not based on your birth date and your lucky number. Try it!",
     hosted: "https://kuc5m.csb.app/",
     source: "https://github.com/prajvalhl/is-birthday-lucky",
   },
   {
     id: 4,
-    title: "Dicegame",
-    date: "November, 2020",
+    title: "Dicegame 2.0",
+    date: "December, 2020",
     description:
-      "A simple non-responsive dice game written using Vanilla JavaScript (ES5). First to score 100 points/custom winning score wins!! For more details - readme.md",
-    hosted: "https://prajvalhl.github.io/dicegame/",
-    source: "https://github.com/prajvalhl/dicegame",
+      "A small non-responsive fun dice game, created using Vanilla-JS (ES6). First to score 100 points wins!! This is same as the dicegame but with different UI. For more details - readme.md",
+    hosted: "https://prajvalhl.github.io/dicegame-2.0/",
+    source: "https://github.com/prajvalhl/dicegame-2.0",
   },
   {
     id: 3,
-    title: "Pig Game V2 (Aka Dicegame)",
-    date: "December, 2020",
+    title: "Dicegame",
+    date: "November, 2020",
     description:
-      "A simple non-responsive dice game written using Vanilla JavaScript (ES6). First to score 100 points wins!! This is same as the previous dicegame but with updated UI. For more details - readme.md",
-    hosted: "https://prajvalhl.github.io/pig-game-v2/",
-    source: "https://github.com/prajvalhl/pig-game-v2",
+      "A small non-responsive fun dice game, created using Vanilla-JS (ES5). First to score 100 points / custom winning score wins!! For more details - readme.md",
+    hosted: "https://prajvalhl.github.io/dicegame/",
+    source: "https://github.com/prajvalhl/dicegame",
   },
   {
     id: 2,
     title: "Guess My Number",
     date: "December, 2020",
     description:
-      "A simple non-responsive vanilla JS (ES6) game to guess the numbers between 1 and 20.",
+      "A small non-responsive fun vanilla-JS (ES6) game to guess the numbers between 1 and 20.",
     hosted: "https://prajvalhl.github.io/Guess-My-Number/",
     source: "https://github.com/prajvalhl/Guess-My-Number",
   },
@@ -112,7 +112,7 @@ export const data = [
     title: "Modal",
     date: "December, 2020",
     description:
-      "A primitive modal window written using CSS and vanilla JS (ES6).",
+      "A primitive modal window created using CSS and vanilla-JS (ES6).",
     hosted: "https://prajvalhl.github.io/Modal/",
     source: "https://github.com/prajvalhl/Modal",
   },
