@@ -1,6 +1,6 @@
 export const data = [
   {
-    id: 12,
+    id: 13,
     title: "Portfolio Site",
     date: "June, 2021",
     description:
@@ -9,16 +9,16 @@ export const data = [
     source: "https://github.com/prajvalhl/prajval-portfolio-react",
   },
   {
-    id: 11,
+    id: 12,
     title: "comp-libr",
     date: "April, 2021",
     description:
       "A fully responsive Custom CSS Component Library made using HTML, CSS and JavaScript (ES6).",
     hosted: "https://comp-libr.netlify.app/",
-    source: "https://github.com/prajvalhl/comp.libr",
+    source: "https://github.com/prajvalhl/comp-libr",
   },
   {
-    id: 10,
+    id: 11,
     title: "Portfolio Site (old)",
     date: "February, 2021",
     description:
@@ -27,7 +27,7 @@ export const data = [
     source: "https://github.com/prajvalhl/prajval-portfolio",
   },
   {
-    id: 9,
+    id: 10,
     title: "How woke are you?",
     date: "January, 2021",
     description:
@@ -36,7 +36,7 @@ export const data = [
     source: "https://repl.it/@prajvalhl/CLI-end-game-neo-g#index.js",
   },
   {
-    id: 8,
+    id: 9,
     title: "Budgety",
     date: "October, 2020",
     description:
@@ -45,7 +45,7 @@ export const data = [
     source: "https://github.com/prajvalhl/budgety",
   },
   {
-    id: 7,
+    id: 8,
     title: "What's this Food Emoji?",
     date: "January, 2021",
     description:
@@ -54,7 +54,7 @@ export const data = [
     source: "https://github.com/prajvalhl/emojiInterpreter",
   },
   {
-    id: 6,
+    id: 7,
     title: "Talk Dothraki",
     date: "January, 2021",
     description:
@@ -63,13 +63,22 @@ export const data = [
     source: "https://github.com/prajvalhl/talk-dothraki",
   },
   {
-    id: 5,
+    id: 6,
     title: "Cash Register Manager",
     date: "August, 2021",
     description:
       "A simple responsive Cash Register Manager written using ReactJS. Helps one to know the minimum number of cash to return for a given bill amount.",
     hosted: "https://flurq.csb.app/",
     source: "https://github.com/prajvalhl/cash-register-manager",
+  },
+  {
+    id: 5,
+    title: "Is your birthday lucky?",
+    date: "August, 2021",
+    description:
+      "This fun little ReactJS app says if your birthday is lucky or not based on your birth date and your lucky number. Try it!",
+    hosted: "https://kuc5m.csb.app/",
+    source: "https://github.com/prajvalhl/is-birthday-lucky",
   },
   {
     id: 4,
