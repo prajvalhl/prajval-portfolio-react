@@ -4,7 +4,7 @@ export const data = [
     title: "Portfolio Site (React-JS)",
     date: "June, 2021",
     description:
-      "A Responsive Portfolio website which showcases my Projects, made using REACT-JS. If you're reading this, you're already on my website right now! Cheers!",
+      "A Responsive Portfolio website which showcases my Projects, made using React-JS. If you're reading this, you're already on my website right now! Cheers!",
     hosted: "https://prajvalhl.netlify.app/",
     source: "https://github.com/prajvalhl/prajval-portfolio-react",
   },
