@@ -10,23 +10,30 @@ export function Footer() {
         <li className="list-item-inline">
           <a
             className="link"
-            href="https://www.linkedin.com/in/hlprajval/"
+            href="https://github.com/prajvalhl"
             target="_blank"
             rel="noreferrer"
           >
-            Linkedin
+            <img
+              src="https://img.icons8.com/material-outlined/48/000000/github.png"
+              alt="github logo"
+            />
           </a>
         </li>
         <li className="list-item-inline">
           <a
             className="link"
-            href="https://github.com/prajvalhl"
+            href="https://www.linkedin.com/in/hlprajval/"
             target="_blank"
             rel="noreferrer"
           >
-            Github
+            <img
+              src="https://img.icons8.com/ios-glyphs/50/000000/linkedin.png"
+              alt="linkedin logo"
+            />
           </a>
         </li>
+
         <li className="list-item-inline">
           <a
             className="link"
@@ -34,7 +41,10 @@ export function Footer() {
             target="_blank"
             rel="noreferrer"
           >
-            Twitter
+            <img
+              src="https://img.icons8.com/ios-filled/46/000000/twitter.png"
+              alt="twitter logo"
+            />
           </a>
         </li>
       </ul>
