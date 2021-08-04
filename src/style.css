@@ -139,6 +139,10 @@ body {
   font-size: larger;
 }
 
+i.fab {
+  font-size: 2rem;
+}
+
 /* article spacing */
 
 .article-space {

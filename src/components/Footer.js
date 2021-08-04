@@ -14,10 +14,11 @@ export function Footer() {
             target="_blank"
             rel="noreferrer"
           >
-            <img
+            {/* <img
               src="https://img.icons8.com/material-outlined/48/000000/github.png"
               alt="github logo"
-            />
+            /> */}
+            <i class="fab fa-github" aria-hidden="true"></i>
           </a>
         </li>
         <li className="list-item-inline">
@@ -27,10 +28,11 @@ export function Footer() {
             target="_blank"
             rel="noreferrer"
           >
-            <img
+            {/* <img
               src="https://img.icons8.com/ios-glyphs/50/000000/linkedin.png"
               alt="linkedin logo"
-            />
+            /> */}
+            <i class="fab fa-linkedin-in"></i>
           </a>
         </li>
 
@@ -41,10 +43,11 @@ export function Footer() {
             target="_blank"
             rel="noreferrer"
           >
-            <img
+            {/* <img
               src="https://img.icons8.com/ios-filled/46/000000/twitter.png"
               alt="twitter logo"
-            />
+            /> */}
+            <i class="fab fa-twitter"></i>
           </a>
         </li>
       </ul>
