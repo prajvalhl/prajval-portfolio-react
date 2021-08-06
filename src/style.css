@@ -119,7 +119,7 @@ body {
 
 /* footer */
 .footer {
-  padding: 2rem 1rem;
+  padding: 2rem 0;
   text-align: center;
   color: white;
   border-top-right-radius: 1rem;

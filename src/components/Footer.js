@@ -14,7 +14,7 @@ export function Footer() {
             target="_blank"
             rel="noreferrer"
           >
-            <i class="fab fa-github" aria-hidden="true"></i>
+            <i className="fab fa-github" aria-hidden="true"></i>
           </a>
         </li>
         <li className="list-item-inline">
@@ -24,7 +24,7 @@ export function Footer() {
             target="_blank"
             rel="noreferrer"
           >
-            <i class="fab fa-linkedin-in"></i>
+            <i className="fab fa-linkedin-in"></i>
           </a>
         </li>
 
@@ -35,7 +35,7 @@ export function Footer() {
             target="_blank"
             rel="noreferrer"
           >
-            <i class="fab fa-twitter"></i>
+            <i className="fab fa-twitter"></i>
           </a>
         </li>
       </ul>
