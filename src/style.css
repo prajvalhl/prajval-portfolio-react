@@ -132,11 +132,21 @@ body {
 
 .footer ul {
   padding-inline-start: 0px;
+  padding-top: 0.5rem;
 }
 
 .footer .footer-header {
   font-weight: bold;
   font-size: larger;
+}
+
+.footer p {
+  padding-top: 0.5rem;
+  margin-bottom: 0;
+}
+
+.footer p span {
+  font-weight: bold;
 }
 
 i.fab {

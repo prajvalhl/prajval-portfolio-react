@@ -5,7 +5,7 @@ export function Footer() {
   const { themePalette } = useTheme();
   return (
     <footer className={`footer ${themePalette.primary}`}>
-      <div className="footer-header">Connect me on Social Media.</div>
+      <div className="footer-header">Connect with me on</div>
       <ul className="social-links list-non-bullet">
         <li className="list-item-inline">
           <a
@@ -39,6 +39,9 @@ export function Footer() {
           </a>
         </li>
       </ul>
+      <p>
+        Made with <span>&lt;/&gt;</span> by Prajval H L
+      </p>
     </footer>
   );
 }
