@@ -28,24 +28,6 @@ export const data = [
   },
   {
     id: 11,
-    title: "How woke are you?",
-    date: "January, 2021",
-    description:
-      "A CLI App built with nodeJS. You can share this to your friends and find out who really are woke.",
-    hosted: "https://repl.it/@prajvalhl/CLI-end-game-neo-g?embed=1&output=1",
-    source: "https://repl.it/@prajvalhl/CLI-end-game-neo-g#index.js",
-  },
-  {
-    id: 10,
-    title: "Budgety",
-    date: "October, 2020",
-    description:
-      "A simple non-responsive app for calculating monthly budget. This app is created using HTML, CSS and Vanilla-JS (ES5).",
-    hosted: "https://prajvalhl.github.io/budgety/",
-    source: "https://github.com/prajvalhl/budgety",
-  },
-  {
-    id: 9,
     title: "What's this Food Emoji?",
     date: "January, 2021",
     description:
@@ -54,7 +36,7 @@ export const data = [
     source: "https://github.com/prajvalhl/emojiInterpreter",
   },
   {
-    id: 8,
+    id: 10,
     title: "Test if your Birthdate is Palindrome",
     date: "January, 2021",
     description:
@@ -63,7 +45,7 @@ export const data = [
     source: "https://github.com/prajvalhl/palindrome-birthday",
   },
   {
-    id: 7,
+    id: 9,
     title: "Talk Dothraki",
     date: "January, 2021",
     description:
@@ -72,7 +54,7 @@ export const data = [
     source: "https://github.com/prajvalhl/talk-dothraki",
   },
   {
-    id: 6,
+    id: 8,
     title: "Cash Register Manager",
     date: "January, 2021",
     description:
@@ -81,7 +63,7 @@ export const data = [
     source: "https://github.com/prajvalhl/cash-register-manager",
   },
   {
-    id: 5,
+    id: 7,
     title: "Is your birthday lucky?",
     date: "January, 2021",
     description:
@@ -90,7 +72,7 @@ export const data = [
     source: "https://github.com/prajvalhl/is-birthday-lucky",
   },
   {
-    id: 4,
+    id: 6,
     title: "Dicegame 2.0",
     date: "December, 2020",
     description:
@@ -99,7 +81,7 @@ export const data = [
     source: "https://github.com/prajvalhl/dicegame-2.0",
   },
   {
-    id: 3,
+    id: 5,
     title: "Dicegame",
     date: "November, 2020",
     description:
@@ -108,7 +90,16 @@ export const data = [
     source: "https://github.com/prajvalhl/dicegame",
   },
   {
-    id: 2,
+    id: 4,
+    title: "Budgety",
+    date: "October, 2020",
+    description:
+      "A simple non-responsive app for calculating monthly budget. This app is created using HTML, CSS and Vanilla-JS (ES5).",
+    hosted: "https://prajvalhl.github.io/budgety/",
+    source: "https://github.com/prajvalhl/budgety",
+  },
+  {
+    id: 3,
     title: "Guess My Number",
     date: "December, 2020",
     description:
@@ -117,12 +108,21 @@ export const data = [
     source: "https://github.com/prajvalhl/Guess-My-Number",
   },
   {
-    id: 1,
+    id: 2,
     title: "Modal",
     date: "December, 2020",
     description:
       "A primitive modal window created using CSS and vanilla-JS (ES6).",
     hosted: "https://prajvalhl.github.io/Modal/",
     source: "https://github.com/prajvalhl/Modal",
+  },
+  {
+    id: 1,
+    title: "How woke are you?",
+    date: "January, 2021",
+    description:
+      "A CLI App built with nodeJS. You can share this to your friends and find out who really are woke.",
+    hosted: "https://repl.it/@prajvalhl/CLI-end-game-neo-g?embed=1&output=1",
+    source: "https://repl.it/@prajvalhl/CLI-end-game-neo-g#index.js",
   },
 ];
