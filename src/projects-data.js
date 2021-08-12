@@ -1,6 +1,6 @@
 export const data = [
   {
-    id: 13,
+    id: 14,
     title: "Portfolio Site (React-JS)",
     date: "June, 2021",
     description:
@@ -9,7 +9,7 @@ export const data = [
     source: "https://github.com/prajvalhl/prajval-portfolio-react",
   },
   {
-    id: 12,
+    id: 13,
     title: "comp-libr",
     date: "April, 2021",
     description:
@@ -18,7 +18,7 @@ export const data = [
     source: "https://github.com/prajvalhl/comp-libr",
   },
   {
-    id: 11,
+    id: 12,
     title: "Portfolio Site (Vanilla-JS)",
     date: "February, 2021",
     description:
@@ -27,7 +27,7 @@ export const data = [
     source: "https://github.com/prajvalhl/prajval-portfolio",
   },
   {
-    id: 10,
+    id: 11,
     title: "How woke are you?",
     date: "January, 2021",
     description:
@@ -36,7 +36,7 @@ export const data = [
     source: "https://repl.it/@prajvalhl/CLI-end-game-neo-g#index.js",
   },
   {
-    id: 9,
+    id: 10,
     title: "Budgety",
     date: "October, 2020",
     description:
@@ -45,13 +45,22 @@ export const data = [
     source: "https://github.com/prajvalhl/budgety",
   },
   {
-    id: 8,
+    id: 9,
     title: "What's this Food Emoji?",
     date: "January, 2021",
     description:
       "This simple responsive app will interpret food / drink emojis. Put a Food emoji and it will tell what food it is. This app is created using React-JS.",
     hosted: "https://qv6p8.csb.app/",
     source: "https://github.com/prajvalhl/emojiInterpreter",
+  },
+  {
+    id: 8,
+    title: "Test if your Birthdate is Palindrome",
+    date: "January, 2021",
+    description:
+      "This app takes in your birthday as input and tells you if your birthdate is palindrome or if not, it'll tell you the closest palindrome date. This responsive app was created using HTML, CSS and Vanilla-JS (ES6). ",
+    hosted: "https://prajvalhl.github.io/palindrome-birthday/",
+    source: "https://github.com/prajvalhl/palindrome-birthday",
   },
   {
     id: 7,
