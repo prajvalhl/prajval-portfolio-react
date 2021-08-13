@@ -59,7 +59,7 @@ export const data = [
     date: "January, 2021",
     description:
       "A simple responsive Cash Register Manager app written using React-JS. Helps one to know the minimum number of cash to return for a given bill amount.",
-    hosted: "https://flurq.csb.app/",
+    hosted: "https://33gn9.csb.app/",
     source: "https://github.com/prajvalhl/cash-register-manager",
   },
   {
