@@ -68,7 +68,7 @@ export const data = [
     date: "January, 2021",
     description:
       "This fun little React-JS app tells if your birthday is lucky or not based on your birth date and your lucky number. Try it!",
-    hosted: "https://kuc5m.csb.app/",
+    hosted: "https://ikrv9.csb.app/",
     source: "https://github.com/prajvalhl/is-birthday-lucky",
   },
   {
