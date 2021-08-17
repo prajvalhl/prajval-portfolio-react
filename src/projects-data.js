@@ -1,15 +1,15 @@
 export const data = [
   {
-    id: 14,
+    id: 15,
     title: "Portfolio Site (React-JS)",
     date: "June, 2021",
     description:
-      "A Responsive Portfolio website which showcases my Projects, made using React-JS. If you're reading this, you're already on my website right now! Cheers!",
+      "A Responsive Portfolio website which showcases my Projects, made using React-JS. Uses localStorage to save the theme of your choice across sessions. If you're reading this, you're already on my website right now! Cheers!",
     hosted: "https://prajvalhl.netlify.app/",
     source: "https://github.com/prajvalhl/prajval-portfolio-react",
   },
   {
-    id: 13,
+    id: 14,
     title: "comp-libr",
     date: "April, 2021",
     description:
@@ -18,13 +18,22 @@ export const data = [
     source: "https://github.com/prajvalhl/comp-libr",
   },
   {
-    id: 12,
+    id: 13,
     title: "Portfolio Site (Vanilla-JS)",
     date: "February, 2021",
     description:
       "A Responsive Portfolio website which showcases my projects. This website is created using HTML, CSS and Vanilla-JS (ES6).",
     hosted: "https://prajvalhl-old.netlify.app/",
     source: "https://github.com/prajvalhl/prajval-portfolio",
+  },
+  {
+    id: 12,
+    title: "All about Triangles",
+    date: "February, 2021",
+    description:
+      "This fun little responsive app will ask you quiz about triangles. You can also calculate Hypotenuse and area of triangle and find if your angles makes a triangle. This app is created using React-JS.",
+    hosted: "https://d4f17.csb.app/",
+    source: "https://github.com/prajvalhl/triangles-quiz",
   },
   {
     id: 11,
