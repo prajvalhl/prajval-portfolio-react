@@ -1,6 +1,6 @@
 export const data = [
   {
-    id: 15,
+    id: 16,
     title: "Portfolio Site (React-JS)",
     date: "June, 2021",
     description:
@@ -9,7 +9,7 @@ export const data = [
     source: "https://github.com/prajvalhl/prajval-portfolio-react",
   },
   {
-    id: 14,
+    id: 15,
     title: "comp-libr",
     date: "April, 2021",
     description:
@@ -18,7 +18,7 @@ export const data = [
     source: "https://github.com/prajvalhl/comp-libr",
   },
   {
-    id: 13,
+    id: 14,
     title: "Portfolio Site (Vanilla-JS)",
     date: "February, 2021",
     description:
@@ -27,7 +27,7 @@ export const data = [
     source: "https://github.com/prajvalhl/prajval-portfolio",
   },
   {
-    id: 12,
+    id: 13,
     title: "All about Triangles",
     date: "February, 2021",
     description:
@@ -36,7 +36,7 @@ export const data = [
     source: "https://github.com/prajvalhl/triangles-quiz",
   },
   {
-    id: 11,
+    id: 12,
     title: "What's this Food Emoji?",
     date: "January, 2021",
     description:
@@ -45,7 +45,7 @@ export const data = [
     source: "https://github.com/prajvalhl/emojiInterpreter",
   },
   {
-    id: 10,
+    id: 11,
     title: "Test if your Birthdate is Palindrome",
     date: "January, 2021",
     description:
@@ -54,13 +54,22 @@ export const data = [
     source: "https://github.com/prajvalhl/palindrome-birthday",
   },
   {
-    id: 9,
+    id: 10,
     title: "Talk Dothraki",
     date: "January, 2021",
     description:
       "This is a translation app that converts from English to Dothraki language. This small responsive app was created using HTML, CSS and Vanilla-JS (ES6). For more details - readme.md",
     hosted: "https://prajvalhl.github.io/talk-dothraki/",
     source: "https://github.com/prajvalhl/talk-dothraki",
+  },
+  {
+    id: 9,
+    title: "Stocks: Profit or Loss Calculator",
+    date: "January, 2021",
+    description:
+      "This app takes in the price at which you bought a stock, number of stocks and the current price of the stock and tells you if you're making a profit or loss off of it. This app is created using React-JS.",
+    hosted: "https://qny2k.csb.app/",
+    source: "https://github.com/prajvalhl/stocks-profit-or-loss",
   },
   {
     id: 8,
