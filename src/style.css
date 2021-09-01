@@ -83,10 +83,6 @@ body {
   font-weight: bold;
 }
 
-.navigation a {
-  color: white;
-}
-
 .navigation ul {
   text-align: right;
 }
@@ -272,4 +268,10 @@ i.fab {
   display: inline;
   margin-right: 2rem;
   float: right;
+}
+
+@media (max-width: 400px) {
+  .navigation .button {
+    padding: 0.3rem 0;
+  }
 }
