@@ -23,20 +23,20 @@ export function Home() {
         </h1>
       </header>
       <section className={`section ${themePalette.section}`}>
-        <div className="container container-center">
+        <div className="container container-center section-skills">
           <h1>My Skills</h1>
-          <ul>
-            <li className="list-non-bullet skills">
+          <ul className="list-non-bullet">
+            <li className="skills">
               <strong>Web:</strong> HTML5, CSS3, JavaScript, ReactJS, NodeJS,
               Python.
             </li>
-            <li className="list-non-bullet skills">
+            <li className="skills">
               <strong>Database:</strong> MS SQL Server, MongoDB.{" "}
             </li>
-            <li className="list-non-bullet skills">
+            <li className="skills">
               <strong>Version Control System:</strong> Git, GitHub.{" "}
             </li>
-            <li className="list-non-bullet skills">
+            <li className="skills">
               <strong>Web Hosting:</strong> Netlify.{" "}
             </li>
           </ul>

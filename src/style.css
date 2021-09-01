@@ -17,7 +17,7 @@ body {
 }
 
 .container-center {
-  max-width: 600px;
+  max-width: 40%;
   margin: auto;
 }
 
@@ -54,6 +54,7 @@ body {
 .list-non-bullet {
   list-style: none;
   margin-block-end: 0;
+  padding: 0;
 }
 
 .skills {
@@ -107,10 +108,16 @@ body {
 /* sections */
 .section {
   padding: 2rem;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .section h1 {
   text-align: center;
+}
+
+.section-skills {
+  text-align: left;
 }
 
 /* footer */
@@ -270,8 +277,17 @@ i.fab {
   float: right;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
   .navigation .button {
     padding: 0.3rem 0;
+  }
+
+  .project-p {
+    padding-right: 1rem;
+    text-align: justify;
+  }
+
+  .container-center {
+    max-width: 90%;
   }
 }

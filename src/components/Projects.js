@@ -24,7 +24,7 @@ export function Projects() {
             <div className="container container-center article-space">
               <h1>{proj.title}</h1>
               <small>{proj.date}</small>
-              <p>{proj.description}</p>
+              <p className="project-p">{proj.description}</p>
 
               <a
                 className={`link link-primary ${themePalette.primary}`}
