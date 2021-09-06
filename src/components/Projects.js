@@ -21,7 +21,9 @@ export function Projects() {
       <ul className="list-non-bullet">
         {data.map((proj) => (
           <li key={proj.id}>
-            <div className="container container-center article-space">
+            <div
+              className={`container container-center article-space ${themePalette.section}`}
+            >
               <h1>{proj.title}</h1>
               <small>{proj.date}</small>
               <p className="project-p">{proj.description}</p>

@@ -159,7 +159,9 @@ i.fab {
 /* article spacing */
 
 .article-space {
-  padding: 2rem 0rem;
+  padding: 1rem;
+  margin: 1rem auto;
+  border-radius: 0.5rem;
 }
 
 /* button */
@@ -284,10 +286,14 @@ i.fab {
 
   .project-p {
     padding-right: 1rem;
-    text-align: justify;
+    /* text-align: justify; */
   }
 
   .container-center {
-    max-width: 90%;
+    max-width: 100%;
+  }
+
+  .article-space {
+    max-width: 85%;
   }
 }
