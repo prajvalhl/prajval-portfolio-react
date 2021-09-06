@@ -192,6 +192,10 @@ i.fab {
   border: 1px solid var(--primary-color);
 }
 
+.btn-float:active {
+  background-color: #3b82f6;
+}
+
 /* dark theme */
 
 .dark-body {
