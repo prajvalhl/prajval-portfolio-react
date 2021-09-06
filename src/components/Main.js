@@ -90,7 +90,7 @@ export function Main() {
           </li>
         </ul>
       </nav>
-      {route === "home" && <Home setRoute={setRoute} />}
+      {route === "home" && <Home />}
       {route === "projects" && <Projects />}
       {route === "blog" && <Blogs />}
       <Footer />
