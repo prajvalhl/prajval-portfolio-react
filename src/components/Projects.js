@@ -26,7 +26,7 @@ export function Projects() {
             >
               <h1>{proj.title}</h1>
               <small>{proj.date}</small>
-              <p className="project-p">{proj.description}</p>
+              <p>{proj.description}</p>
 
               <a
                 className={`link link-primary ${themePalette.primary}`}
@@ -48,6 +48,12 @@ export function Projects() {
           </li>
         ))}
       </ul>
+      <button
+        className={`btn-float float-fix ${themePalette.primary}`}
+        onClick={() => window.scrollTo(0, 0)}
+      >
+        <span className="material-icons">arrow_circle_up</span>
+      </button>
     </div>
   );
 }

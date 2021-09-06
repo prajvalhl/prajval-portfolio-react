@@ -7,6 +7,10 @@
   --off-white: #f3f4f6;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
@@ -29,21 +33,21 @@ body {
 }
 
 .link-primary {
+  display: inline-block;
   background-color: var(--primary-color);
   color: white;
   border-radius: 0.5rem;
-  display: block;
   max-width: 140px;
-  margin: 1rem 1rem 1rem 0rem;
+  margin: 1rem 1rem 0rem 0rem;
 }
 
 .link-secondary {
+  display: inline-block;
   color: var(--primary-color);
-  display: block;
   border: 1px solid var(--primary-color);
   border-radius: 0.5rem;
   max-width: 140px;
-  margin: 1rem 1rem 1rem 0rem;
+  margin: 1rem 1rem 0rem 0rem;
 }
 
 .link-active {
@@ -279,14 +283,9 @@ i.fab {
   float: right;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 500px) {
   .navigation .button {
     padding: 0.3rem 0;
-  }
-
-  .project-p {
-    padding-right: 1rem;
-    /* text-align: justify; */
   }
 
   .container-center {
