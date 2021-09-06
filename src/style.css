@@ -34,7 +34,6 @@ body {
 
 .link-primary {
   display: inline-block;
-  background-color: var(--primary-color);
   color: white;
   border-radius: 0.5rem;
   max-width: 140px;
@@ -52,6 +51,10 @@ body {
 
 .link-active {
   font-weight: bold;
+}
+
+.link:hover {
+  text-decoration: none;
 }
 
 /* lists */
