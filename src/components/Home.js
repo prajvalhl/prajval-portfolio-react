@@ -69,19 +69,18 @@ export function Home() {
           </button>
         </div>
       </section>
-      <section className="section">
+      <section className="section resume">
         <div className="container container-center">
           <h1>Download Résumé</h1>
           <p>Have a look at my Résumé!</p>
-          <button
-            className={`button btn-primary ${themePalette.primary}`}
-            onClick={() =>
-              (window.location.href =
-                "https://drive.google.com/file/d/11oocmtBndbWEj2bSKXKOBSV_ZhUEMd7p/view?usp=sharing")
-            }
+          <a
+            className={`link link-primary ${themePalette.primary}`}
+            href="https://drive.google.com/file/d/11oocmtBndbWEj2bSKXKOBSV_ZhUEMd7p/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
           >
             Résumé
-          </button>
+          </a>
         </div>
       </section>
     </div>
