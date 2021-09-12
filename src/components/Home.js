@@ -75,7 +75,7 @@ export function Home() {
           <p>Have a look at my Résumé!</p>
           <a
             className={`link link-primary ${themePalette.primary}`}
-            href="https://drive.google.com/file/d/11oocmtBndbWEj2bSKXKOBSV_ZhUEMd7p/view?usp=sharing"
+            href="https://drive.google.com/file/d/1dHvEPNb_4ySzxvs_kZBZMsfqTssCPtDW/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
