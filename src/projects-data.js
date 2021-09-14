@@ -1,5 +1,14 @@
 export const data = [
   {
+    id: 17,
+    title: "Shop-KannadaClass101",
+    date: "September, 2021",
+    description:
+      "An e-commerce book store which is Under Development! ⚠️ but you can still try it using the below link. This website is being made using MERN stack. This website is a part of an other project, more details will be updated soon!",
+    hosted: "http://shop-kannadaclass101.netlify.app/",
+    source: "https://github.com/prajvalhl/kannada101-eshop",
+  },
+  {
     id: 16,
     title: "Portfolio Site (React-JS)",
     date: "June, 2021",
