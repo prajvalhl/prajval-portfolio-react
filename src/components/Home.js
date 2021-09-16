@@ -48,7 +48,10 @@ export function Home() {
           <p>Here are some of my works!</p>
           <button
             className={`button btn-primary ${themePalette.primary}`}
-            onClick={() => setRoute("projects")}
+            onClick={() => {
+              setRoute("projects");
+              window.scrollTo(0, 0);
+            }}
           >
             See Projects
           </button>
@@ -63,7 +66,10 @@ export function Home() {
           </p>
           <button
             className={`button btn-primary btn-secondary ${themePalette.section}`}
-            onClick={() => setRoute("blog")}
+            onClick={() => {
+              setRoute("blog");
+              window.scrollTo(0, 0);
+            }}
           >
             Read Blogs
           </button>
@@ -71,15 +77,15 @@ export function Home() {
       </section>
       <section className="section resume">
         <div className="container container-center">
-          <h1>Download Résumé</h1>
-          <p>Have a look at my Résumé!</p>
+          <h1>Download Resume</h1>
+          <p>Have a look at my Resume!</p>
           <a
             className={`link link-primary ${themePalette.primary}`}
             href="https://drive.google.com/file/d/1dHvEPNb_4ySzxvs_kZBZMsfqTssCPtDW/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
-            Résumé
+            Resume
           </a>
         </div>
       </section>

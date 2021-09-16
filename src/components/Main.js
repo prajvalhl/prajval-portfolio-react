@@ -30,12 +30,15 @@ export function Main() {
     <div>
       <nav className={`container navigation ${themePalette.primary}`}>
         <div className="nav-brand">
-          <button
-            className={`button brand-name ${themePalette.primary}`}
-            onClick={() => setRoute("home")}
+          <p
+            className="brand-name"
+            onClick={() => {
+              setRoute("home");
+              window.scrollTo(0, 0);
+            }}
           >
             PRAJVAL H L
-          </button>
+          </p>
           <div className="theme-position">
             <input
               type="checkbox"
@@ -59,7 +62,10 @@ export function Main() {
                   ? `button link-active ${themePalette.primary}`
                   : `button ${themePalette.primary}`
               }
-              onClick={() => setRoute("home")}
+              onClick={() => {
+                setRoute("home");
+                window.scrollTo(0, 0);
+              }}
             >
               Home
             </button>
@@ -71,7 +77,10 @@ export function Main() {
                   ? `button link-active ${themePalette.primary}`
                   : `button ${themePalette.primary}`
               }
-              onClick={() => setRoute("projects")}
+              onClick={() => {
+                setRoute("projects");
+                window.scrollTo(0, 0);
+              }}
             >
               Projects
             </button>
@@ -83,7 +92,10 @@ export function Main() {
                   ? `button link-active ${themePalette.primary}`
                   : `button ${themePalette.primary}`
               }
-              onClick={() => setRoute("blog")}
+              onClick={() => {
+                setRoute("blog");
+                window.scrollTo(0, 0);
+              }}
             >
               Blogs
             </button>

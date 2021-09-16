@@ -1,10 +1,19 @@
 export const data = [
   {
+    id: 18,
+    title: "Video-KannadaClass101",
+    date: "September, 2021",
+    description:
+      "A video library site which is in it's super early stages! ⚠️ Under Development! but you can still try it using the below link. This website is being made using MERN stack. This website is a part of another project, more details will be updated soon!",
+    hosted: "http://video-kannadaclass101.netlify.app/",
+    source: "https://github.com/prajvalhl/kannadaclass101-videolibrary",
+  },
+  {
     id: 17,
     title: "Shop-KannadaClass101",
     date: "September, 2021",
     description:
-      "An e-commerce book store which is Under Development! ⚠️ but you can still try it using the below link. This website is being made using MERN stack. This website is a part of an other project, more details will be updated soon!",
+      "An e-commerce book store which is ⚠️ Under Development! but you can still try it using the below link. This website is being made using MERN stack. This website is a part of another project, more details will be updated soon!",
     hosted: "http://shop-kannadaclass101.netlify.app/",
     source: "https://github.com/prajvalhl/kannada101-eshop",
   },
