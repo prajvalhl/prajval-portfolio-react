@@ -13,8 +13,10 @@ export function Main() {
 
   useEffect(() => {
     const getTheme = JSON.parse(localStorage.getItem("theme"));
-    setTheme(getTheme);
-    getTheme.body === "dark-body" ? setDark(true) : setDark(false);
+    if (getTheme) {
+      setTheme(getTheme);
+      getTheme.body === "dark-body" ? setDark(true) : setDark(false);
+    }
   }, []);
 
   useEffect(() => {
