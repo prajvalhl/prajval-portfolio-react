@@ -41,15 +41,15 @@ export function Main() {
           >
             PRAJVAL H L
           </p>
-          <div className="theme-position">
+          <div className="theme-btn-position">
             <input
               type="checkbox"
               className="checkbox"
-              id="chk"
+              id="theme-btn"
               onChange={handleThemeButton}
               checked={isDark}
             />
-            <label className="label" htmlFor="chk">
+            <label className="label" htmlFor="theme-btn">
               <i className="fas fa-moon"></i>
               <i className="fas fa-sun"></i>
               <div className="ball"></div>
