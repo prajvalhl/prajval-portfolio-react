@@ -1,16 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
-import { NavProvider } from "./nav-context";
 import { ThemeProvider } from "./theme-context";
+import { BrowserRouter as Router } from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
-    <ThemeProvider>
-      <NavProvider>
+    <Router>
+      <ThemeProvider>
         <App />
-      </NavProvider>
-    </ThemeProvider>
+      </ThemeProvider>
+    </Router>
   </React.StrictMode>,
   document.getElementById("root")
 );

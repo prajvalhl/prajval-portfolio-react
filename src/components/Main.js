@@ -3,13 +3,13 @@ import { Home } from "./Home";
 import { Projects } from "./Projects";
 import { Blogs } from "./Blogs";
 import { Footer } from "./Footer";
-import { useNav } from "../nav-context";
 import { useTheme, light, dark } from "../theme-context";
+import { NavLink, Routes, Route } from "react-router-dom";
 
 export function Main() {
-  const { route, setRoute } = useNav();
   const [isDark, setDark] = useState(false);
   const { themePalette, setTheme } = useTheme();
+  const active = { fontWeight: "bold", color: "white", textDecoration: "none" };
 
   useEffect(() => {
     const getTheme = JSON.parse(localStorage.getItem("theme"));
@@ -17,7 +17,7 @@ export function Main() {
       setTheme(getTheme);
       getTheme.body === "dark-body" ? setDark(true) : setDark(false);
     }
-  }, []);
+  }, [setTheme]);
 
   useEffect(() => {
     localStorage.setItem("theme", JSON.stringify(themePalette));
@@ -32,15 +32,16 @@ export function Main() {
     <div>
       <nav className={`container navigation ${themePalette.primary}`}>
         <div className="nav-brand">
-          <p
+          <NavLink
+            to="/"
             className="brand-name"
+            activeStyle={active}
             onClick={() => {
-              setRoute("home");
               window.scrollTo(0, 0);
             }}
           >
             PRAJVAL H L
-          </p>
+          </NavLink>
           <div className="theme-btn-position">
             <input
               type="checkbox"
@@ -58,55 +59,51 @@ export function Main() {
         </div>
         <ul className="list-non-bullet">
           <li className="list-item-inline">
-            <button
-              className={
-                route === "home"
-                  ? `button link-active ${themePalette.primary}`
-                  : `button ${themePalette.primary}`
-              }
+            <NavLink
+              end
+              className="nav-items"
+              to="/"
+              activeStyle={active}
               onClick={() => {
-                setRoute("home");
                 window.scrollTo(0, 0);
               }}
             >
               Home
-            </button>
+            </NavLink>
           </li>
           <li className="list-item-inline">
-            <button
-              className={
-                route === "projects"
-                  ? `button link-active ${themePalette.primary}`
-                  : `button ${themePalette.primary}`
-              }
+            <NavLink
+              end
+              className="nav-items"
+              to="/projects"
+              activeStyle={active}
               onClick={() => {
-                setRoute("projects");
                 window.scrollTo(0, 0);
               }}
             >
               Projects
-            </button>
+            </NavLink>
           </li>
           <li className="list-item-inline">
-            <button
-              className={
-                route === "blog"
-                  ? `button link-active ${themePalette.primary}`
-                  : `button ${themePalette.primary}`
-              }
+            <NavLink
+              end
+              className="nav-items"
+              to="/blogs"
+              activeStyle={active}
               onClick={() => {
-                setRoute("blog");
                 window.scrollTo(0, 0);
               }}
             >
               Blogs
-            </button>
+            </NavLink>
           </li>
         </ul>
       </nav>
-      {route === "home" && <Home />}
-      {route === "projects" && <Projects />}
-      {route === "blog" && <Blogs />}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="projects" element={<Projects />} />
+        <Route path="blogs" element={<Blogs />} />
+      </Routes>
       <Footer />
     </div>
   );
