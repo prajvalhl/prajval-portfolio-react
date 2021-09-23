@@ -11,7 +11,7 @@ export function Projects() {
   }, []);
 
   return (
-    <div>
+    <div className="projects">
       <header className="hero">
         <img className="hero-img" src={logo} alt="" />
         <h1 className="hero-heading">
@@ -29,7 +29,7 @@ export function Projects() {
               <p>{proj.description}</p>
 
               <a
-                className={`link link-primary ${themePalette.primary}`}
+                className={`link link-primary link-project ${themePalette.primary}`}
                 href={proj.hosted}
                 target="_blank"
                 rel="noreferrer"
@@ -37,7 +37,7 @@ export function Projects() {
                 Live Project
               </a>
               <a
-                className="link link-secondary"
+                className="link link-secondary link-project"
                 href={proj.source}
                 target="_blank"
                 rel="noreferrer"

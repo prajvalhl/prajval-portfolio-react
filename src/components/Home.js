@@ -1,10 +1,9 @@
 import React, { useEffect } from "react";
 import logo from "./images/hero-main.svg";
-import { useNav } from "../nav-context";
 import { useTheme } from "../theme-context";
+import { Link } from "react-router-dom";
 
 export function Home() {
-  const { setRoute } = useNav();
   const { themePalette } = useTheme();
 
   useEffect(() => {
@@ -46,15 +45,15 @@ export function Home() {
         <div className="container container-center">
           <h1>Projects</h1>
           <p>Here are some of my works!</p>
-          <button
-            className={`button btn-primary ${themePalette.primary}`}
+          <Link
+            to="/projects"
+            className={`link link-primary ${themePalette.primary}`}
             onClick={() => {
-              setRoute("projects");
               window.scrollTo(0, 0);
             }}
           >
             See Projects
-          </button>
+          </Link>
         </div>
       </section>
       <section className={`section ${themePalette.section}`}>
@@ -64,15 +63,15 @@ export function Home() {
             I like to document my journey of learning so that it would help
             someone in need.
           </p>
-          <button
-            className={`button btn-primary btn-secondary ${themePalette.section}`}
+          <Link
+            to="/blogs"
+            className="link link-secondary"
             onClick={() => {
-              setRoute("blog");
               window.scrollTo(0, 0);
             }}
           >
             Read Blogs
-          </button>
+          </Link>
         </div>
       </section>
       <section className="section resume">
