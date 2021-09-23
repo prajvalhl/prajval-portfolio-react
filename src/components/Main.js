@@ -101,8 +101,8 @@ export function Main() {
       </nav>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="projects" element={<Projects />} />
-        <Route path="blogs" element={<Blogs />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/blogs" element={<Blogs />} />
       </Routes>
       <Footer />
     </div>
