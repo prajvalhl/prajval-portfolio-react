@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import logo from "./images/hero-projects.svg";
-import { data } from "../projects-data";
+import { data } from "../data";
 import { useTheme } from "../theme-context";
 
 export function Projects() {

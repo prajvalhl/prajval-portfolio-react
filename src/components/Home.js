@@ -80,8 +80,7 @@ export function Home() {
           <p>Have a look at my Resume!</p>
           <a
             className={`link link-primary ${themePalette.primary}`}
-            href="https://drive.google.com/file/d/1dHvEPNb_4ySzxvs_kZBZMsfqTssCPtDW/view?usp=sharing"
-            target="_blank"
+            href="https://drive.google.com/uc?id=18vX3Y6yEDF5ZtmrVl8zFN1iIvlvtWMEO&export=download"
             rel="noreferrer"
           >
             Resume
