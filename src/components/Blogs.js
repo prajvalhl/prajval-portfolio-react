@@ -10,7 +10,7 @@ export function Blogs() {
   }, []);
 
   return (
-    <div>
+    <div className="blogs">
       <header className="hero">
         <img className="hero-img" src={logo} alt="" />
         <h1 className="hero-heading">

@@ -140,7 +140,7 @@ body {
 }
 
 .section-skills {
-  text-align: left;
+  text-align: center;
 }
 
 /* footer */
@@ -306,6 +306,11 @@ i.fab {
   float: right;
 }
 
+/* blogs */
+.blogs {
+  height: 77vh;
+}
+
 @media (max-width: 500px) {
   .container-center {
     max-width: 100%;
@@ -325,5 +330,10 @@ i.fab {
 
   .section-skills {
     padding: 0;
+    text-align: left;
+  }
+
+  .blogs {
+    height: auto;
   }
 }
