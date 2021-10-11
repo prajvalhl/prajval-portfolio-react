@@ -308,7 +308,7 @@ i.fab {
 
 /* blogs */
 .blogs {
-  height: 77vh;
+  height: auto;
 }
 
 @media (max-width: 500px) {
@@ -331,9 +331,5 @@ i.fab {
   .section-skills {
     padding: 0;
     text-align: left;
-  }
-
-  .blogs {
-    height: auto;
   }
 }
