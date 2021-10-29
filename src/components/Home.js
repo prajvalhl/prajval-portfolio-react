@@ -30,7 +30,7 @@ export function Home() {
               Python.
             </li>
             <li className="skills">
-              <strong>Database:</strong>MongoDB, MS SQL Server.
+              <strong>Database:</strong> MongoDB, MS SQL Server.
             </li>
             <li className="skills">
               <strong>Version Control System:</strong> Git, GitHub.{" "}
