@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import logo from "./images/hero-blog.svg";
 import { useTheme } from "../theme-context";
+import { blogsData } from "../data";
 
 export function Blogs() {
   const { themePalette } = useTheme();
@@ -17,15 +18,28 @@ export function Blogs() {
           My <span className={themePalette.primaryInside}>Blogs</span>
         </h1>
       </header>
-      <section className="section">
-        <div className="container container-center">
-          <h1>Nothing Here Yet!</h1>
-          <p>
-            This page is under construction! I will update this page once my
-            blog is up and running!
-          </p>
-        </div>
-      </section>
+      <ul className="list-non-bullet">
+        {blogsData.map((blog) => (
+          <li key={blog.id}>
+            <div
+              className={`container container-center article-space ${themePalette.section}`}
+            >
+              <h1>{blog.title}</h1>
+              <small>{blog.date}</small>
+              <p>{blog.description}</p>
+
+              <a
+                className={`link link-primary ${themePalette.primary}`}
+                href={blog.link}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Read more
+              </a>
+            </div>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 }

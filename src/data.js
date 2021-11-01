@@ -1,4 +1,4 @@
-export const data = [
+export const projectsData = [
   {
     id: 18,
     title: "Video-KannadaClass101",
@@ -160,5 +160,16 @@ export const data = [
       "A CLI App built with nodeJS. You can share this to your friends and find out who really are woke.",
     hosted: "https://repl.it/@prajvalhl/CLI-end-game-neo-g?embed=1&output=1",
     source: "https://repl.it/@prajvalhl/CLI-end-game-neo-g#index.js",
+  },
+];
+
+export const blogsData = [
+  {
+    id: 1,
+    title: "How to download a React project from GitHub and run it locally.",
+    date: "October, 2021",
+    description:
+      "As a beginner, have you ever wondered how do I run the React project which I cloned from GitHub on my machine? Here's a step by step instruction for that.",
+    link: "https://prajvalhl.hashnode.dev/how-to-download-a-react-project-from-github-and-run-it-locally",
   },
 ];

@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import logo from "./images/hero-projects.svg";
-import { data } from "../data";
+import { projectsData } from "../data";
 import { useTheme } from "../theme-context";
 
 export function Projects() {
@@ -19,7 +19,7 @@ export function Projects() {
         </h1>
       </header>
       <ul className="list-non-bullet">
-        {data.map((proj) => (
+        {projectsData.map((proj) => (
           <li key={proj.id}>
             <div
               className={`container container-center article-space ${themePalette.section}`}
