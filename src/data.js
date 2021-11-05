@@ -1,6 +1,6 @@
 export const projectsData = [
   {
-    id: 18,
+    id: 19,
     title: "Video-KannadaClass101",
     date: "September, 2021",
     description:
@@ -9,7 +9,7 @@ export const projectsData = [
     source: "https://github.com/prajvalhl/kannadaclass101-videolibrary",
   },
   {
-    id: 17,
+    id: 18,
     title: "Shop-KannadaClass101",
     date: "September, 2021",
     description:
@@ -18,7 +18,7 @@ export const projectsData = [
     source: "https://github.com/prajvalhl/kannada101-eshop",
   },
   {
-    id: 16,
+    id: 17,
     title: "Portfolio Site (React-JS)",
     date: "June, 2021",
     description:
@@ -27,7 +27,7 @@ export const projectsData = [
     source: "https://github.com/prajvalhl/prajval-portfolio-react",
   },
   {
-    id: 15,
+    id: 16,
     title: "comp-libr",
     date: "April, 2021",
     description:
@@ -36,7 +36,7 @@ export const projectsData = [
     source: "https://github.com/prajvalhl/comp-libr",
   },
   {
-    id: 14,
+    id: 15,
     title: "Portfolio Site (Vanilla-JS)",
     date: "February, 2021",
     description:
@@ -45,7 +45,7 @@ export const projectsData = [
     source: "https://github.com/prajvalhl/prajval-portfolio",
   },
   {
-    id: 13,
+    id: 14,
     title: "All about Triangles",
     date: "February, 2021",
     description:
@@ -54,13 +54,22 @@ export const projectsData = [
     source: "https://github.com/prajvalhl/triangles-quiz",
   },
   {
-    id: 12,
+    id: 13,
     title: "What's this Food Emoji?",
     date: "January, 2021",
     description:
       "This simple responsive app will interpret food / drink emojis. Put a Food emoji and it will tell what food it is. This app is created using React-JS.",
     hosted: "https://qv6p8.csb.app/",
     source: "https://github.com/prajvalhl/emojiInterpreter",
+  },
+  {
+    id: 12,
+    title: "Dad Jokes",
+    date: "October, 2021",
+    description:
+      "This responsive React-JS app fetches random jokes from dad jokes api (icanhazdadjoke) and displays.",
+    hosted: "https://hel60.csb.app/",
+    source: "https://github.com/prajvalhl/dad-jokes",
   },
   {
     id: 11,
