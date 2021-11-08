@@ -174,6 +174,14 @@ export const projectsData = [
 
 export const blogsData = [
   {
+    id: 2,
+    title: "JavaScript Classes and Why?",
+    date: "November, 2021",
+    description:
+      "Let's learn what are classes in JavaScript and why we use them.",
+    link: "https://prajvalhl.hashnode.dev/javascript-classes-and-why",
+  },
+  {
     id: 1,
     title: "How to download a React project from GitHub and run it locally.",
     date: "October, 2021",
