@@ -178,7 +178,7 @@ export const blogsData = [
     title: "JavaScript Classes and Why?",
     date: "November, 2021",
     description:
-      "Let's learn what are classes in JavaScript and why we use them.",
+      "Hey everyone! In this blog, let's learn what are classes in JavaScript and why we use them.",
     link: "https://prajvalhl.hashnode.dev/javascript-classes-and-why",
   },
   {
