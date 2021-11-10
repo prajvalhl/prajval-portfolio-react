@@ -22,7 +22,7 @@ export const projectsData = [
     title: "Portfolio Site (React-JS)",
     date: "June, 2021",
     description:
-      "A Responsive Portfolio website which showcases my Projects, made using React-JS. Uses localStorage to save the theme (Light or Dark) of your choice across sessions and Uses React Router v6 for routing. If you're reading this, you're already on my website right now! Cheers!",
+      "A Responsive Portfolio website which showcases my Projects, made using React-JS. Uses localStorage to save the theme (Light or Dark) of your choice across sessions and Uses React Router v6 (Stable) for routing. If you're reading this, you're already on my website right now! Cheers!",
     hosted: "https://prajvalhl.netlify.app/",
     source: "https://github.com/prajvalhl/prajval-portfolio-react",
   },
