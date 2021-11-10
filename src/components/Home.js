@@ -27,10 +27,10 @@ export function Home() {
           <ul className="list-non-bullet">
             <li className="skills">
               <strong>Web:</strong> HTML5, CSS3, JavaScript, ReactJS, NodeJS,
-              Python.
+              ExpressJS, Python.
             </li>
             <li className="skills">
-              <strong>Database:</strong> MongoDB, MS SQL Server.
+              <strong>Database:</strong> MongoDB, Mongoose.
             </li>
             <li className="skills">
               <strong>Version Control System:</strong> Git, GitHub.{" "}
