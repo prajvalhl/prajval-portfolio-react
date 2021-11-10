@@ -9,7 +9,11 @@ import { NavLink, Routes, Route } from "react-router-dom";
 export function Main() {
   const [isDark, setDark] = useState(false);
   const { themePalette, setTheme } = useTheme();
-  const active = { fontWeight: "bold", color: "white", textDecoration: "none" };
+  const active = ({ isActive }) => ({
+    fontWeight: isActive && "bold",
+    color: "white",
+    textDecoration: "none",
+  });
 
   useEffect(() => {
     const getTheme = JSON.parse(localStorage.getItem("theme"));
@@ -35,7 +39,7 @@ export function Main() {
           <NavLink
             to="/"
             className="brand-name"
-            activeStyle={active}
+            style={active}
             onClick={() => {
               window.scrollTo(0, 0);
             }}
@@ -63,7 +67,7 @@ export function Main() {
               end
               className="nav-items"
               to="/"
-              activeStyle={active}
+              style={active}
               onClick={() => {
                 window.scrollTo(0, 0);
               }}
@@ -76,7 +80,7 @@ export function Main() {
               end
               className="nav-items"
               to="/projects"
-              activeStyle={active}
+              style={active}
               onClick={() => {
                 window.scrollTo(0, 0);
               }}
@@ -89,7 +93,7 @@ export function Main() {
               end
               className="nav-items"
               to="/blogs"
-              activeStyle={active}
+              style={active}
               onClick={() => {
                 window.scrollTo(0, 0);
               }}
