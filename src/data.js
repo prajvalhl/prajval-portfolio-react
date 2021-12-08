@@ -1,6 +1,6 @@
 export const projectsData = [
   {
-    id: 19,
+    id: 20,
     title: "Video-KannadaClass101",
     date: "September, 2021",
     description:
@@ -9,7 +9,7 @@ export const projectsData = [
     source: "https://github.com/prajvalhl/kannadaclass101-videolibrary",
   },
   {
-    id: 18,
+    id: 29,
     title: "Shop-KannadaClass101",
     date: "September, 2021",
     description:
@@ -18,7 +18,7 @@ export const projectsData = [
     source: "https://github.com/prajvalhl/kannada101-eshop",
   },
   {
-    id: 17,
+    id: 18,
     title: "Portfolio Site (React-JS)",
     date: "June, 2021",
     description:
@@ -27,13 +27,22 @@ export const projectsData = [
     source: "https://github.com/prajvalhl/prajval-portfolio-react",
   },
   {
-    id: 16,
+    id: 17,
     title: "comp-libr",
     date: "April, 2021",
     description:
       "A fully responsive Custom CSS Component Library created using HTML, CSS and Vanilla-JS (ES6).",
     hosted: "https://comp-libr.netlify.app/",
     source: "https://github.com/prajvalhl/comp-libr",
+  },
+  {
+    id: 16,
+    title: "Pacific International",
+    date: "November, 2021",
+    description:
+      "A fully responsive Company Portfolio Website made for a client, Pacific International, Bangalore, created using React-JS.",
+    hosted: "https://pacific-international.netlify.app/",
+    source: "https://github.com/prajvalhl/pacific-international",
   },
   {
     id: 15,
