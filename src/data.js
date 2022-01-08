@@ -1,5 +1,14 @@
 export const projectsData = [
   {
+    id: 21,
+    title: "Task Management System",
+    date: "December, 2021",
+    description:
+      "A responsive Task Management App developed using React-JS for the frontend and Firebase for backend, auth, storage and database.",
+    hosted: "https://task-management-system-d3404.web.app/",
+    source: "https://github.com/prajvalhl/task-management-system",
+  },
+  {
     id: 20,
     title: "Video-KannadaClass101",
     date: "September, 2021",
@@ -9,7 +18,7 @@ export const projectsData = [
     source: "https://github.com/prajvalhl/kannadaclass101-videolibrary",
   },
   {
-    id: 29,
+    id: 19,
     title: "Shop-KannadaClass101",
     date: "September, 2021",
     description:
