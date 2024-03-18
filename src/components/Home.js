@@ -26,10 +26,11 @@ export function Home() {
           <h1>My Skills</h1>
           <ul className="list-non-bullet">
             <li className="skills">
-              <strong>Web:</strong> HTML5, CSS3, JavaScript, Angular, React
+              <strong>Web:</strong> HTML5, CSS3, JavaScript, Angular, React,
+              Vue.
             </li>
             <li className="skills">
-              <strong>Backend:</strong> NodeJS, ExpressJS, Python.
+              <strong>Backend:</strong> NodeJS, ExpressJS.
             </li>
             <li className="skills">
               <strong>Database:</strong> MongoDB, Mongoose.
@@ -39,6 +40,9 @@ export function Home() {
             </li>
             <li className="skills">
               <strong>Web Hosting:</strong> Netlify.{" "}
+            </li>
+            <li className="skills">
+              <strong>Others:</strong> Python.{" "}
             </li>
           </ul>
         </div>
