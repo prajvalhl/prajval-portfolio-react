@@ -17,7 +17,7 @@ export function Home() {
         <h1 className={`hero-heading ${themePalette.heroHeading}`}>
           Hey there! My name is{" "}
           <span className={themePalette.primaryInside}>Prajval</span>. I'm a
-          <span className={themePalette.primaryInside}> Full Stack Web</span>{" "}
+          <span className={themePalette.primaryInside}> Frontend Web</span>{" "}
           Developer.
         </h1>
       </header>
@@ -26,8 +26,10 @@ export function Home() {
           <h1>My Skills</h1>
           <ul className="list-non-bullet">
             <li className="skills">
-              <strong>Web:</strong> HTML5, CSS3, JavaScript, ReactJS, NodeJS,
-              ExpressJS, Python.
+              <strong>Web:</strong> HTML5, CSS3, JavaScript, Angular, React
+            </li>
+            <li className="skills">
+              <strong>Backend:</strong> NodeJS, ExpressJS, Python.
             </li>
             <li className="skills">
               <strong>Database:</strong> MongoDB, Mongoose.
